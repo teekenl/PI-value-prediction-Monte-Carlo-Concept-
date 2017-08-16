@@ -15,7 +15,7 @@ What I have learn?
 3. The reason to affect the accuracy of PI values:
    The number of point to generate
    The number of time of iterations
-   The size of circle: If the circle has 80% size or area of grid will product the most accurate result.
+   The size of circle: If the circle has 80% size or area of grid will produce the most accurate result.
 
 Step to run
 
