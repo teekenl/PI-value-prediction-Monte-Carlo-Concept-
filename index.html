@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="circle.js"></script>
+    <script src="unit_test.js"></script>
+    <title>PI value Estimation (Monte Carlo) by Ken Lau</title>
+</head>
+<body onload="run_unit_test()">
+    <!-- The plotting area -->
+    <form>
+        <label for="gridSize">Grid Size:</label>
+        <input id="gridSize" name="gridSize" /><br/>
+        <label for="gridSize">Circle Diameter:</label>
+        <input id="circleDiameter" name="gridSize" /><br/>
+        <label for="gridSize">Number of point to generate:</label>
+        <input id="number_point" name="gridSize" /><br/>
+        <label for="gridSize">Iterations: </label>
+        <input id="iteration" name="gridSize" /><br/><br/>
+        <span id="error">The form received numeric input only.</span><br/>
+        <input id="submit-button" value="Submit" type="button" onclick="runSimulation()" />
+    </form>
+
+    <br/>
+    <div id="final-result">The Average estimated PI value: Unknown</div>
+
+    <canvas id="canvas"></canvas>
+</body>
+</html>

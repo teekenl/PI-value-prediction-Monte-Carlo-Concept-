@@ -1,0 +1,5 @@
+/** Error message css **/
+span{
+    color:red;
+    visibility: hidden;
+}
